@@ -1,0 +1,4 @@
+#+title: J Mode
+Provides  REPL integration ( via comint ) for the J programming language.
+
+This repo is forked from [[https://github.com/oantolin/emacs-config/blob/master/my-lisp/j-mode.el][oantolin/emacs-config]] at commit [[https://github.com/oantolin/emacs-config/commit/241e651128c989344461787a1ddf46fb9a7e0fff][241e651]]
