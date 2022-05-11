@@ -1,5 +1,7 @@
 ;;; j-mode.el --- Communicate with an inferior J   -*- lexical-binding: t; -*-
 
+(require 'comint)
+
 (defgroup j-mode nil "Major mode for J programs"
   :group 'languages)
 
