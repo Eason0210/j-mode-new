@@ -16,14 +16,14 @@
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "C-c C-l") #'j-mode-load-file)
     (define-key map (kbd "C-c C-c") #'j-mode-eval)
-    (define-key map (kbd "C-c C-s") #'run-j)
+    (define-key map (kbd "C-c C-z") #'run-j)
     map)
   "Keymap for J mode")
 
 (defvar inferior-j-mode-map
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "C-c C-l") #'j-mode-load-file)
-    (define-key map (kbd "C-c C-s") #'j-mode-switch-to-source)
+    (define-key map (kbd "C-c C-z") #'j-mode-switch-to-source)
     map)
   "Keymap for J mode")
 
